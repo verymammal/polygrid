@@ -1,6 +1,6 @@
 {
   "name": "polygrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A polymorphic UI grid for React.",
   "author": "verymammal",
   "license": "MIT",

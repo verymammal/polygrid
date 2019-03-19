@@ -139,6 +139,10 @@ export default class Polygrid extends Component {
     this.ResizeObserver.observe(this.el)
   }
 
+  shouldComponentUpdate ({ gap, children }, { width }) {
+    return gap !== this.props.gap || children !== this.props.children || width !== this.state.width
+  }
+
   render () {
     const {
       props: { gap, children },
