@@ -68,6 +68,8 @@ const Product = ({ title, price }) =>
   </div>
 ```
 
+### [See it in action!](https://verymammal.github.io/polygrid/)
+
 For the avoidance of doubt, all units are given in pixels, and can be given as
 a number or a string.
 
